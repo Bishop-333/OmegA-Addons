@@ -22,19 +22,16 @@ endif
 ASSETS_DIR := addons
 
 OUTPUT_DIR := build
-PK3_DIR := $(OUTPUT_DIR)/pk3
 
 OMEGA_PK3 = omg-model-patch.pk3
 
-TIMESTAMP = $(shell date +"%s")
+release: $(OUTPUT_DIR)
+	zip $(OUTPUT_DIR)/$(OMEGA_PK3) $(ASSETS_DIR)/omg-model-patch/*
+	cp $(OUTPUT_DIR)/$(OMEGA_PK3) $(ASSETS_DIR)/
+	zip $(OUTPUT_DIR)/OmegA_Model_pack.zip $(OUTPUT_DIR)/$(OMEGA_PK3)
 
-release: $(PK3_DIR)
-	cp -r $(ASSETS_DIR)/omg-model-patch/* $(PK3_DIR)/
-	cd $(PK3_DIR) && $(CURDIR)/caca_deterministic_zip.sh \
-		$(TIMESTAMP) ../$(OMEGA_PK3) .
-
-$(PK3_DIR):
-	mkdir -p $(PK3_DIR)
+$(OUTPUT_DIR):
+	mkdir -p $(OUTPUT_DIR)
 
 clean_assets:
 	$(MAKE) -C $(ASSETS_DIR) clean
