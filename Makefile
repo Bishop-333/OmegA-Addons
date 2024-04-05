@@ -26,9 +26,10 @@ OUTPUT_DIR := build
 OMEGA_PK3 = omg-model-patch.pk3
 
 release: $(OUTPUT_DIR)
+	find . -name ".DS_Store" -print -delete
 	zip $(OUTPUT_DIR)/$(OMEGA_PK3) $(ASSETS_DIR)/omg-model-patch/*
 	cp $(OUTPUT_DIR)/$(OMEGA_PK3) $(ASSETS_DIR)/
-	zip $(OUTPUT_DIR)/OmegA_Model_pack.zip $(OUTPUT_DIR)/$(OMEGA_PK3)
+	zip -j $(OUTPUT_DIR)/OmegA_Model_pack.zip $(OUTPUT_DIR)/$(OMEGA_PK3) $(ASSETS_DIR)/md3* $(ASSETS_DIR)/bot*
 
 $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)
