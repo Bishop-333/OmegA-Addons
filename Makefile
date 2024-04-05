@@ -19,14 +19,29 @@ ifeq ($(COMPILE_PLATFORM),mingw32)
   endif
 endif
 
+ASSETS_DIR := addons
+
 OUTPUT_DIR := build
 PK3_DIR := $(OUTPUT_DIR)/pk3
 
-TIMESTAMP = @$(shell cd $(GAMECODE_DIR) && git show -s --format=%ct)
+OMEGA_PK3 = omg-model-patch.pk3
 
-release: qvm $(OUTPUT_DIR) 
-	rm -rf $(PK3_DIR)
-	mkdir $(PK3_DIR)
-	cp -r $ addons/omg-model-patch/* $(PK3_DIR)/
+TIMESTAMP = $(shell date +"%s")
+
+release: $(PK3_DIR)
+	cp -r $(ASSETS_DIR)/omg-model-patch/* $(PK3_DIR)/
 	cd $(PK3_DIR) && $(CURDIR)/caca_deterministic_zip.sh \
-		../$ omg-model-patch.pk3 .
+		$(TIMESTAMP) ../$(OMEGA_PK3) .
+
+$(PK3_DIR):
+	mkdir -p $(PK3_DIR)
+
+clean_assets:
+	$(MAKE) -C $(ASSETS_DIR) clean
+
+clean_output:
+	rm -rf $(OUTPUT_DIR)
+
+clean: clean_assets clean_output
+
+distclean: clean_assets clean_output
