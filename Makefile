@@ -25,8 +25,8 @@ MAPS_DIR = $(ASSETS_DIR)/maps
 
 OUTPUT_DIR := build
 
-MAPS_ZIP = OmegA_Model_Pack.zip
-MODELS_ZIP = OmegA_Map_Pack.zip
+MAPS_ZIP = OmegA_Map_Pack.zip
+MODELS_ZIP = OmegA_Model_Pack.zip
 
 OMEGA_PK3 = omg-model-patch.pk3
 
@@ -39,7 +39,7 @@ release: $(OUTPUT_DIR)
 
 	cd $(MODELS_DIR)/omg-model-patch && $(CURDIR)/caca_deterministic_zip.sh \
 		$(TIMESTAMP) ../$(OMEGA_PK3) .
-	zip -j $(OUTPUT_DIR)/$(MODELS_ZIP) $(MODELS_DIR)/*
+	zip -j $(OUTPUT_DIR)/$(MODELS_ZIP) $(MODELS_DIR)/* $(MODELS_DIR)/readmes
 
 $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)
