@@ -25,8 +25,8 @@ MAPS_DIR = $(ASSETS_DIR)/maps
 
 OUTPUT_DIR := build
 
-MAPS_ZIP = OmegA_Map_Pack.zip
-MODELS_ZIP = OmegA_Model_Pack.zip
+MAPS_ZIP = OmegA_Map_Selection.zip
+MODELS_ZIP = OmegA_Model_Selection.zip
 
 OMEGA_PK3 = omg-model-patch.pk3
 
