@@ -20,8 +20,13 @@ ifeq ($(COMPILE_PLATFORM),mingw32)
 endif
 
 ASSETS_DIR := addons
+MODELS_DIR = $(ASSETS_DIR)/models
+MAPS_DIR = $(ASSETS_DIR)/maps
 
 OUTPUT_DIR := build
+
+MAPS_ZIP = OmegA_Model_Pack.zip
+MODELS_ZIP = OmegA_Map_Pack.zip
 
 OMEGA_PK3 = omg-model-patch.pk3
 
@@ -29,9 +34,12 @@ TIMESTAMP = $(shell date +"%s")
 
 release: $(OUTPUT_DIR)
 	find . -name ".DS_Store" -print -delete
-	cd $(ASSETS_DIR)/omg-model-patch && $(CURDIR)/caca_deterministic_zip.sh \
+
+	zip -j $(OUTPUT_DIR)/$(MAPS_ZIP) $(MAPS_DIR)/*
+
+	cd $(MODELS_DIR)/omg-model-patch && $(CURDIR)/caca_deterministic_zip.sh \
 		$(TIMESTAMP) ../$(OMEGA_PK3) .
-	zip -j $(OUTPUT_DIR)/OmegA_Model_pack.zip $(ASSETS_DIR)/$(OMEGA_PK3) $(ASSETS_DIR)/md3* $(ASSETS_DIR)/bot*
+	zip -j $(OUTPUT_DIR)/$(MODELS_ZIP) $(MODELS_DIR)/*
 
 $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)
