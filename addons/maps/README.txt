@@ -1,6 +1,6 @@
-Thank you for downloading this model pack !
+Thank you for downloading this map pack !
 
-Everything in the pk3 is unmodified.
+Every pk3 is unmodified.
 
 Here the original download link for each map :
 	- ironwood : http://ws.q3df.org/maps/downloads/ironwood.pk3

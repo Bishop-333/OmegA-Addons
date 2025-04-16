@@ -3025,7 +3025,6 @@ textures/base_light/jaildr2_3
 textures/base_light/light2blue_2500
 {
   qer_editorimage textures/base_light/light1blue.tga
-  q3map_lightimage textures/base_light/light1blue1.blend.tga
   surfaceparm nomarks
   q3map_surfacelight 2500
   light 1
@@ -3037,10 +3036,6 @@ textures/base_light/light2blue_2500
     map textures/base_light/light1blue.tga
     blendFunc GL_DST_COLOR GL_ZERO
     rgbGen identity
-  }
-  {
-    map textures/base_light/light1blue1.blend.tga
-    blendfunc add
   }
 }
 
