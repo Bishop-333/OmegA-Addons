@@ -26,6 +26,7 @@ MAPS_DIR = $(ASSETS_DIR)/maps
 OUTPUT_DIR := build
 
 MAPS_ZIP = OmegA_Map_Selection.zip
+GPL_ZIP = gpl-omega-textures.zip
 MODELS_ZIP = OmegA_Model_Selection.zip
 
 GPL_TEXTURES_PK3 = z-gpl-omega-textures.pk3
@@ -39,6 +40,7 @@ release: $(OUTPUT_DIR)
 	cd $(MAPS_DIR)/z-gpl-omega-textures && $(CURDIR)/caca_deterministic_zip.sh \
 		$(TIMESTAMP) ../$(GPL_TEXTURES_PK3) .
 	zip -j $(OUTPUT_DIR)/$(MAPS_ZIP) $(MAPS_DIR)/*
+	zip -j $(OUTPUT_DIR)/$(GPL_ZIP) $(MAPS_DIR)/$(GPL_TEXTURES_PK3)
 	rm -f $(MAPS_DIR)/$(GPL_TEXTURES_PK3)
 
 	cd $(MODELS_DIR)/omg-model-patch && $(CURDIR)/caca_deterministic_zip.sh \
