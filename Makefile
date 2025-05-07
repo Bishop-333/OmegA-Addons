@@ -29,7 +29,7 @@ MAPS_ZIP = OmegA_Map_Selection.zip
 GPL_ZIP = gpl-omega-textures.zip
 MODELS_ZIP = OmegA_Model_Selection.zip
 
-GPL_TEXTURES_PK3 = z-gpl-omega-textures.pk3
+GPL_TEXTURES_PK3 = z-gpl-omega-textures-v2.pk3
 MODEL_PATCH_PK3 = omg-model-patch.pk3
 
 TIMESTAMP = $(shell date +"%s")
