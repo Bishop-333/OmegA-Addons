@@ -5,11 +5,9 @@ COMPILE_PLATFORM=$(shell uname|sed -e s/_.*//|tr '[:upper:]' '[:lower:]')
 COMPILE_ARCH=$(shell uname -m | sed -e s/i.86/i386/)
 
 ifeq ($(COMPILE_PLATFORM),sunos)
-  # Solaris uname and GNU uname differ
   COMPILE_ARCH=$(shell uname -p | sed -e s/i.86/i386/)
 endif
 ifeq ($(COMPILE_PLATFORM),darwin)
-  # Apple does some things a little differently...
   COMPILE_ARCH=$(shell uname -p | sed -e s/i.86/i386/)
 endif
 
@@ -22,6 +20,7 @@ endif
 ASSETS_DIR := addons
 MODELS_DIR = $(ASSETS_DIR)/models
 MAPS_DIR = $(ASSETS_DIR)/maps
+GPL_DIR = $(ASSETS_DIR)/gpl-textures
 
 OUTPUT_DIR := build
 
@@ -37,11 +36,12 @@ TIMESTAMP = $(shell date +"%s")
 release: $(OUTPUT_DIR)
 	find . -name ".DS_Store" -type f -print -delete
 
-	cd $(MAPS_DIR)/z-gpl-omega-textures && $(CURDIR)/caca_deterministic_zip.sh \
-		$(TIMESTAMP) ../$(GPL_TEXTURES_PK3) .
+	cd $(GPL_DIR) && $(CURDIR)/caca_deterministic_zip.sh \
+		$(TIMESTAMP) $(CURDIR)/$(GPL_DIR)/$(GPL_TEXTURES_PK3) .
+	zip -j $(OUTPUT_DIR)/$(GPL_ZIP) $(GPL_DIR)/$(GPL_TEXTURES_PK3)
+	rm -f $(GPL_DIR)/$(GPL_TEXTURES_PK3)
+
 	zip -j $(OUTPUT_DIR)/$(MAPS_ZIP) $(MAPS_DIR)/*
-	zip -j $(OUTPUT_DIR)/$(GPL_ZIP) $(MAPS_DIR)/$(GPL_TEXTURES_PK3)
-	rm -f $(MAPS_DIR)/$(GPL_TEXTURES_PK3)
 
 	cd $(MODELS_DIR)/omg-model-patch && $(CURDIR)/caca_deterministic_zip.sh \
 		$(TIMESTAMP) ../$(MODEL_PATCH_PK3) .
