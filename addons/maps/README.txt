@@ -8,4 +8,3 @@ Here the original download link for each map :
 	- PS37CTF - Metro-MP Edit: https://ws.q3df.org/maps/downloads/PS37CTF-MMP.pk3
 	- Running Man: http://ws.q3df.org/maps/downloads/akutatourney8.pk3
 	- Speedy CTF: https://ws.q3df.org/maps/downloads/speedyctf.pk3
-	- Stabilized Warfare: Resurrection: http://ws.q3df.org/maps/downloads/tymo3dm5.pk3
