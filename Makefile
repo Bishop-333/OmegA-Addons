@@ -35,10 +35,10 @@ TIMESTAMP = $(shell date +"%s")
 release: $(OUTPUT_DIR)
 	find . -name ".DS_Store" -type f -print -delete
 
-	cd $(GPL_DIR) && $(CURDIR)/caca_deterministic_zip.sh \
-		$(TIMESTAMP) $(CURDIR)/$(GPL_DIR)/$(GPL_TEXTURES_PK3) .
-	zip -j $(OUTPUT_DIR)/$(GPL_ZIP) $(GPL_DIR)/$(GPL_TEXTURES_PK3)
-	rm -f $(GPL_DIR)/$(GPL_TEXTURES_PK3)
+#	cd $(GPL_DIR) && $(CURDIR)/caca_deterministic_zip.sh \
+#		$(TIMESTAMP) $(CURDIR)/$(GPL_DIR)/$(GPL_TEXTURES_PK3) .
+#	zip -j $(OUTPUT_DIR)/$(GPL_ZIP) $(GPL_DIR)/$(GPL_TEXTURES_PK3)
+#	rm -f $(GPL_DIR)/$(GPL_TEXTURES_PK3)
 
 	zip -j $(OUTPUT_DIR)/$(MAPS_ZIP) $(MAPS_DIR)/*
 
