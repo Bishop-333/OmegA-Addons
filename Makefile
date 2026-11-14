@@ -25,10 +25,10 @@ GPL_DIR = $(ASSETS_DIR)/gpl-textures
 OUTPUT_DIR := build
 
 MAPS_ZIP = OmegA_Map_Selection.zip
-GPL_ZIP = gpl-omega-textures.zip
+GPL_ZIP = gpl-omega-textures-v2.zip
 MODELS_ZIP = OmegA_Model_Selection.zip
 
-GPL_TEXTURES_PK3 = z-gpl-omega-textures-v2.pk3
+GPL_TEXTURES_PK3 = z_gpl-omega-textures-v2.pk3
 
 TIMESTAMP = $(shell date +"%s")
 
