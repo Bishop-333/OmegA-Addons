@@ -4,7 +4,6 @@ Every pk3 is unmodified and goes with his readme file.
 
 Here the original download link for each model :
 	- alien : https://ws.q3df.org/models/downloads/q3mdl-alien.zip
-	- ar13 : https://ws.q3df.org/models/downloads/q3mdl-ar13.zip
 	- artemis : https://ws.q3df.org/models/downloads/q3mdl-artemis.zip
 	- dragoon : https://ws.q3df.org/models/downloads/q3mdl-dragoon.zip
 	- emul : https://ws.q3df.org/models/downloads/q3mdl-emul.zip
