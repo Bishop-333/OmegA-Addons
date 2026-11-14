@@ -1,0 +1,67 @@
+<1st february 2001>
+
+Update 1.2 : New shader-New Bot-LOD Support-new skins
+================================================================
+Model Name              : Alien
+installation directory  : quake3/baseq3/md3-Alien.pk3
+Author                  : Fallet didier
+Email Address           : didier.fallet@free.fr
+Web			: http://www.quakexpert.com/Alien_Migration
+
+Model description       : From the movies Alien (a melting pot).
+
+================================================================
+new Skin & BOT support	: AlienCyborg
+Installation directory  : quake3/baseq3
+Author                  : Apathy[AGQx]
+Email Address           : apathy@agqx.org
+Website			: http://members.xoom.com/DexSin/index.html
+
+================================================================
+new Skin 		: skn-alien-theta
+Author                  : [GhosTfacE]
+Email Address           : ghostface@circus-infernus.de
+
+================================================================
+Other info              : Elite Force Model converted by Richard Owen
+			  go to http://www.3dap.com/eliteforce/owen/
+
+Additional Credits to   : H.R. Giger, id Software
+
+Thanks to               : H.R. Giger & "Le Rodeur" for the tests
+			  and to an unknown who has done some of the
+			  sounds, the others come from Alien Resurection.
+
+================================================================
+* Play Information *
+
+Skins:			default, Dark
+Bot support:		Yes / a new one more standard ....
+New Sounds:		Yes
+CTF Skins:		Yes
+LOD support		yes
+
+
+* Construction *
+Poly Count              : 991 polys
+Vert Count              : 2973 Verts
+Skin Count              : 4 Skins
+Base                    : New model
+Shaders			: id software
+Editor used             : npherno
+Known Bugs              : (?)
+Build/Animation time    : XXXXXX
+
+================================================================
+Author(s) notes		: Fell free to add your hown skin but do not include
+			  it in md3-Alien.pk3 without my express permission, please.
+
+* How to use this model *
+unpack md3-Alien.zip in your baseq3 directory, you should have : quake3/baseq3/md3-Alien.pk3 and alien_bot.pk3
+
+* Copyright*
+
+ORIGINAL DESIGN BY HR GIGER
+QUAKE III(R) are registered trademarks of id Software, Inc.
+
+

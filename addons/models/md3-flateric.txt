@@ -1,0 +1,60 @@
+model: 04/00
+skins: 08/00
+================================================================
+
+
+Nom                     : Stéphane / Flat Eric
+
+>>> Telechargement exclusif <<< : POLYCOUNT
+
+Auteur                  : r.gyrus
+                          Paris, France
+
+Adresse Electronique    : gyrus@free.fr
+
+Description             : Inspiré de la marionnette crée par Quentin Dupieux
+
+Merci                   : ID Software + Quentin Dupieux (Mr Oizo)
+                          
+================================================================
+
+*Information *
+
+
+Sons                    : oui
+                          sons tirés de l'album "Analog Worms Attacks" de Mr Oizo puis mixés
+                          avec des sons de Flat Eric dans Soundforge
+
+
+CTF                     : oui
+
+
+* Construction *
+
+Poly Count              : Flat  :  868
+                          LOD1  :  702
+                          LOD2  :  454
+
+                          Il est plus volumineux que l'original pour rester visible :-)
+
+
+Base                    : Nouveau perso 
+
+Logiciels utilises      : 3dsmaxR3 + C.Studio
+                          Pop n'fresh plugin
+                          Npherno md3 compiler
+                          Quake3 (Asus Geforce - 1280/1024)
+
+
+* How to use this model *
+<INSTALLATION INFO>
+Unzip FlatEric.pk3 in the baseq3 folder.
+
+
+
+
+
+
+
+
+

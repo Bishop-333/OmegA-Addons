@@ -1,0 +1,52 @@
+march 06, 2002
+================================================================
+Model Name              : mrlone
+installation directory  : quake3/baseq3/md3-mrlone.pk3
+Author                  : mrfart
+Email Address           : mrfart@pandora.be
+Website URL             : on.to/fishhead
+Model description       : This is the first model I ever made. 
+			  It 's far from perfect, no LOD, clipping, a seam here and there,... 
+			  you name it, it has it. But I still like it.
+		          I finished it half a year ago, but I always tought I had to improve it before releasing it. 
+			  Due to lack of time I only made some small improvements. 
+			  Mrlone is the character from a comic I once drew in my sketchbook. 
+			  He's supposed to be the final man on earth after some war, 
+			  and now he spends his days looking for other survivors.
+			 
+
+
+Additional Credits to   : id Software 
+
+Thanks to               : Freekymage, for testing.
+================================================================
+* Play Information *
+
+Custom Sounds           :  YES
+CTF Skins               :  YES
+Bot Support             :  YES
+LOD			:  NO (sorry)
+
+
+* Construction *
+Poly Count              : 832 polys
+Vert Count              : 422 Verts
+Skins                   : 3 
+Base info               : Animations are based upon one of Paul Steeds BIP files. 
+			  Used one of the standard effect textures for the shader files.
+			  The rest was done from scratch.
+Software used           : 3ds, photoshop
+Known Bugs              : cockroach, grasshopper, etc...
+Build/Animation time    : Way to long
+
+
+* How to use this model *
+
+Unzip mrlone.pk3 in the baseq3 folder
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE II(R) and QUAKE III(R) are registered trademarks of
+id Software, Inc.
+
+You may distribute this model through any electronic network, provided you leave the archive complete.

@@ -1,0 +1,39 @@
+JUNE 2. 2003
+================================================================
+Model Name              : Emul
+installation directory  : quake3/baseq3/mdl-emul.pk3
+Author                  : Anders Klok (TempleTiger)
+Email Address           : anders@tigerbean.dk
+Website URL             : www.tigerbean.dk
+Model description       : Fat disgusting alien, he was rejected
+                          a leading role in a sci-fi short movie,
+                          that probably made him mad, it didn't
+                          make him a talented fighter though.
+                          
+Additional Credits to   : TheGreenBean (character design)
+================================================================
+* Play Information *
+
+New Sounds              : NO
+CTF Skins               : YES
+LODS                    : YES
+
+
+* Construction *
+Poly Count              : 2465/1553/1025 polys
+Vert Count              : -
+Skin Count              : 3 Skins
+Base info               : New content
+Software used           : gmax, psp, q3ase
+Known Bugs              : -
+Build/Animation time    : 3-4 days (incl. texture)
+
+
+* How to use this model *
+
+Extract content of q3mdl-emul.zip to <Q3-directory>/baseq3/
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE II(R) and QUAKE III(R) are registered trademarks of
+id Software, Inc.

@@ -1,0 +1,41 @@
+1st February 2001
+================================================================
+Model Name              : EVA-01
+installation directory  : quake3/baseq3/players/EVA-01
+Author                  : didier fallet
+Email Address           : didier.fallet@free.fr
+Web			: http://www.quakexpert.com/Alien_Migration
+
+Model description       : Synthesis human from the (Great) manga Evangelion
+
+Other info              : Elite Force Model converted by Richard Owen
+			  go to http://www.3dap.com/eliteforce/owen/
+
+Additional Credits to   : starfall btw, who suggested the wings idea for the gesture
+
+A big thanks to         : all the Beta testers! A great help :-)
+================================================================
+* Play Information *
+
+New Sounds              : YES and it uses Grunt Sounds too
+CTF Skins               : YES
+LOD Support		: YES
+BOT Support		: YES
+
+* Construction *
+Poly Count              : 1004 polys / LOD Suport : 600 & 399
+Vert Count              : <Unknown>
+Skin Count              : 3
+Base                    : New model
+Editor used             : pop_n_fresh's pluggin / npherno
+Known Bugs              : <Unknown>
+Build/Animation time    : <Unknown>
+
+
+* How to use this model *
+
+Just unzip the files in the BaseQ3 directory
+
+* Copyright / Permissions *
+QUAKE III(R) is a registered trademarks of id Software, Inc.
+EVANGELION is a gainax Anim

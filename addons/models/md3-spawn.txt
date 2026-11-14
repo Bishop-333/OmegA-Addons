@@ -1,0 +1,36 @@
+July 28 2000
+================================================================
+Model Name              : Spawn
+installation directory  : \baseq3
+Author, Skin Author     : Alcor
+Email Address           : jlbr@moncourrier.com
+HomePage		: http://www.planetquake.com/polycount/cottages/alcor/
+
+Model description       : 
+
+This is Spawn for Quake3Arena, a modification of the Spawn model for UT.
+
+Other info  :      	
+
+After I finished Spawn for UT, I tought that it wouldn't be too much trouble to convert the mdoel to the Q3A format.  So I sliced the models into 3 peices, changed the animations, and wrote my first shader! I haven't been able to reproduce the UT Procedural textures effect (fire, gas) with the shader. But, at least, the animated cloak, chains and the glowing eyes work.
+
+================================================================
+* Play Information *
+New Sounds           : Nope
+CTF Skins            : Yes
+VWEP Support         : Yes
+* Construction *
+Poly Count              : Model 942
+Vert Count              : Model 840
+Skin Count              : 3 bodies, 2 faces, 3 cloaks, 1 chain.
+Editors used            : StudioMax3, CharacterStudio, Photoshop5.5, q3data, UnrealED, NotePad, and a lot of luck.
+			  	
+known Bugs              : 
+
+
+* How to use this model *
+Extract md3-spawn.pk3 and bot-spawn.pk3 into your baseq3 folder.
+
+* Copyright / Permissions *QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+Megabyte is copyrighted to Mainframe Entertainment.
+This model isn't built in a lucrative goal, you must ask me the permission before using any parts of this model for another model...

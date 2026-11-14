@@ -29,7 +29,6 @@ GPL_ZIP = gpl-omega-textures.zip
 MODELS_ZIP = OmegA_Model_Selection.zip
 
 GPL_TEXTURES_PK3 = z-gpl-omega-textures-v2.pk3
-MODEL_PATCH_PK3 = omg-model-patch.pk3
 
 TIMESTAMP = $(shell date +"%s")
 
@@ -43,10 +42,7 @@ release: $(OUTPUT_DIR)
 
 	zip -j $(OUTPUT_DIR)/$(MAPS_ZIP) $(MAPS_DIR)/*
 
-	cd $(MODELS_DIR)/omg-model-patch && $(CURDIR)/caca_deterministic_zip.sh \
-		$(TIMESTAMP) ../$(MODEL_PATCH_PK3) .
-	zip -j $(OUTPUT_DIR)/$(MODELS_ZIP) $(MODELS_DIR)/* $(MODELS_DIR)/readmes
-	rm -f $(MODELS_DIR)/$(MODEL_PATCH_PK3)
+	zip -j $(OUTPUT_DIR)/$(MODELS_ZIP) $(MODELS_DIR)/*
 
 $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)

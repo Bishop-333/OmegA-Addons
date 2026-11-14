@@ -1,0 +1,46 @@
+March 16 2001
+================================================================
+Model Name              : Darth Vader
+installation directory  : \baseq3
+Author, Skin Author     : Alcor
+Email Address           : jlbr@moncourrier.com
+HomePage		: http://www.planetquake.com/polycount/cottages/alcor/
+
+Model description       : (From the old Darth Vader for Quake2 readme file, I know I'm lazy.)
+
+Formerly Jedi Knight Anakin Skywalker, student of Obiwan Kenobi. Seduced by the dark side of the 
+Force he became Darth Vader.  As a Dark Lord of the Sith, he was sought to hunt down and destroy 
+all Jedi.  Emperor Palpatine ordered him to kill Luke Skywalker, but tried to save the life of 
+his son instead.
+
+Other info  :      	
+
+This is the second time I do a model of Darth Vader, I did the first one back in 1999, it was my 
+second ppm. Now, this one is my 16th! I decided to do Darth Vader again because I figured out a 
+good way of doing the Lightsaber effect. 
+
+After the Unreal Tournament version was finished, I converted the model into the Quake3Arena format.
+I really like the way the Environment effect is showing up. The polycount is somewhat high, but the polycount of the Lod1/2 version is very low.
+
+================================================================
+* Play Information *
+New Sounds           : Yes
+CTF Skins            : Yes
+VWEP Support         : Yes
+* Construction *
+Poly Count              : Model 1513, 723, 306
+Vert Count              : Model 1424, 512, 247
+Skin Count              : 3 bodies, 1 chest plate, 3 cloaks, 1 saber, 1 environment.
+Editors used            : StudioMax3, CharacterStudio, Photoshop6, q3data, MD3Compile and NotePad.
+			  	
+known Bugs              : The left shoulder clips into the cloak when the player look at his left.
+
+
+* How to use this model *
+Extract md3-vadr.pk3 and bot-vadr.pk3 into your baseq3 folder.
+
+* Copyright / Permissions *QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+
+Additional Credits to   : Darth Vader, Obiwan Kenobi, Anakin and Luke Skywalker are a property of LucasFilm
+
+This model isn't built in a lucrative goal, you must ask me the permission before using any parts of this model for another model...
